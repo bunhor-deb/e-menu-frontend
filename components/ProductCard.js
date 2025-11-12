@@ -25,9 +25,10 @@ function ProductCard({ product }) {
   return (
     <Link
       href={`/products/${handle}`}
-      className="h-120 w-72 rounded shadow-lg mx-auto border border-palette-lighter block"
+      className="block rounded shadow-lg mx-auto border border-palette-lighter overflow-hidden w-full"
     >
-      <div className="h-72 border-b-2 border-palette-lighter relative">
+      {/* Image: responsive height so cards are smaller on phones */}
+      <div className="relative w-full h-40 sm:h-48 md:h-56 lg:h-64 border-b-2 border-palette-lighter overflow-hidden">
         <Image
           src={imageUrl}
           alt={description}
@@ -35,18 +36,17 @@ function ProductCard({ product }) {
           className="transform duration-500 ease-in-out hover:scale-110 object-cover"
         />
       </div>
-      <div className="h-48 relative">
-        <div className="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold">
+
+      <div className="relative p-3 md:p-4">
+        <div className="font-primary text-palette-primary text-base sm:text-lg md:text-xl font-semibold truncate">
           {title}
         </div>
-        <div className="text-lg text-gray-600 p-4 font-primary font-light">
+        <div className="text-sm sm:text-base text-gray-600 mt-2 leading-tight overflow-hidden">
           {description}
         </div>
-        <div
-          className="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-1 pt-2 bg-palette-lighter 
-          rounded-tl-sm triangle"
-        >
-          <Price currency="$" num={price} numSize="text-lg" />
+
+        <div className="absolute bottom-3 right-3 bg-palette-lighter text-palette-dark font-primary font-medium text-sm sm:text-base px-3 py-1 rounded">
+          <Price currency="$" num={price} numSize="text-sm" />
         </div>
       </div>
     </Link>
