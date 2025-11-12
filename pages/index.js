@@ -19,7 +19,7 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/main.jpg",
+            src: "/images/t1.jpg",
           },
         },
       ],
@@ -40,7 +40,7 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/desktop-lighthouse.png",
+            src: "/images/t2.jpg",
           },
         },
       ],
@@ -61,7 +61,7 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/mobile-lighthouse.png",
+            src: "/images/t3.jpg",
           },
         },
       ],
@@ -82,7 +82,7 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/main.jpg",
+            src: "/images/t2.jpg",
           },
         },
       ],
@@ -103,7 +103,7 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/desktop-lighthouse.png",
+            src: "/images/t4.jpg",
           },
         },
       ],
@@ -124,7 +124,7 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/mobile-lighthouse.png",
+            src: "/images/t5.jpg",
           },
         },
       ],

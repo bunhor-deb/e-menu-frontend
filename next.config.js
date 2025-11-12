@@ -21,12 +21,12 @@
 
 module.exports = {
   env: {
-    siteTitle: "Doggy Stickers",
-    siteDescription: "Get some Doggy Stickers!",
-    siteKeywords: "dog, stickers, fun",
-    siteUrl: "https://www.doggystickers.xyz",
+    siteTitle: "E-MENU",
+    siteDescription: "Get Clothes Here!",
+    siteKeywords: "closes, fashion, trendy",
+    siteUrl: "https://www.e-menu.xyz",
     siteImagePreviewUrl: "/images/main.jpg",
-    twitterHandle: "@deepwhitman",
+    twitterHandle: "",
   },
   images: {
     // Use remotePatterns to whitelist external image hosts (more secure)

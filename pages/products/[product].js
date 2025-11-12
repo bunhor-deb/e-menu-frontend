@@ -18,8 +18,8 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/main.jpg",
-            originalSrc: "/images/main.jpg",
+            src: "/images/t1.jpg",
+            originalSrc: "/images/t1.jpg",
             altText: "Sample Product 1",
           },
         },
@@ -52,8 +52,8 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/desktop-lighthouse.png",
-            originalSrc: "/images/desktop-lighthouse.png",
+            src: "/images/t2.jpg",
+            originalSrc: "/images/t2.jpg",
             altText: "Sample Product 2",
           },
         },
@@ -86,8 +86,8 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/mobile-lighthouse.png",
-            originalSrc: "/images/mobile-lighthouse.png",
+            src: "/images/t3.jpg",
+            originalSrc: "/images/t3.jpg",
             altText: "Sample Product 3",
           },
         },
@@ -120,8 +120,8 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/main.jpg",
-            originalSrc: "/images/main.jpg",
+            src: "/images/t4.jpg",
+            originalSrc: "/images/t4.jpg",
             altText: "Sample Product 4",
           },
         },
@@ -154,8 +154,8 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/desktop-lighthouse.png",
-            originalSrc: "/images/desktop-lighthouse.png",
+            src: "/images/t5.jpg",
+            originalSrc: "/images/t5.jpg",
             altText: "Sample Product 5",
           },
         },
@@ -188,8 +188,8 @@ const mockProducts = [
       edges: [
         {
           node: {
-            src: "/images/mobile-lighthouse.png",
-            originalSrc: "/images/mobile-lighthouse.png",
+            src: "/images/t4.jpg",
+            originalSrc: "/images/t4.jpg",
             altText: "Sample Product 6",
           },
         },
